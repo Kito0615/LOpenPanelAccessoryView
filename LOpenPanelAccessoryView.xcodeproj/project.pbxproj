@@ -11,6 +11,7 @@
 		995A971C1E6E947B0093022B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 995A971B1E6E947B0093022B /* main.m */; };
 		995A971E1E6E947B0093022B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 995A971D1E6E947B0093022B /* Assets.xcassets */; };
 		995A97211E6E947B0093022B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 995A971F1E6E947B0093022B /* MainMenu.xib */; };
+		995A972D1E6EA2090093022B /* LOpenPanelWithFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 995A972C1E6EA2090093022B /* LOpenPanelWithFilter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,8 @@
 		995A971D1E6E947B0093022B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		995A97201E6E947B0093022B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		995A97221E6E947B0093022B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		995A972B1E6EA2090093022B /* LOpenPanelWithFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOpenPanelWithFilter.h; sourceTree = "<group>"; };
+		995A972C1E6EA2090093022B /* LOpenPanelWithFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOpenPanelWithFilter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +62,8 @@
 				995A971F1E6E947B0093022B /* MainMenu.xib */,
 				995A97221E6E947B0093022B /* Info.plist */,
 				995A971A1E6E947B0093022B /* Supporting Files */,
+				995A972B1E6EA2090093022B /* LOpenPanelWithFilter.h */,
+				995A972C1E6EA2090093022B /* LOpenPanelWithFilter.m */,
 			);
 			path = LOpenPanelAccessoryView;
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				995A972D1E6EA2090093022B /* LOpenPanelWithFilter.m in Sources */,
 				995A971C1E6E947B0093022B /* main.m in Sources */,
 				995A97191E6E947B0093022B /* AppDelegate.m in Sources */,
 			);
@@ -254,6 +260,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = LOpenPanelAccessoryView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Digiarty.LOpenPanelAccessoryView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -266,6 +273,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = LOpenPanelAccessoryView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Digiarty.LOpenPanelAccessoryView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

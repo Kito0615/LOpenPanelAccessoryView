@@ -32,6 +32,6 @@ In explanations of method shows the method requirations.
     
 Here is the result.
 
-![]()
-![]()
-![]()
+![](https://github.com/Kito0615/LOpenPanelAccessoryView/raw/master/.ss1.png)
+![](https://github.com/Kito0615/LOpenPanelAccessoryView/raw/master/.ss2.png)
+![](https://github.com/Kito0615/LOpenPanelAccessoryView/raw/master/.ss3.png)

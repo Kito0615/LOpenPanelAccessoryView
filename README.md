@@ -8,7 +8,7 @@
 
 Call factory method to initalize open panel instance.
 
-`-(instancetype)openPanelWithFilterOptions:(NSDictionary *)options.`
+`+(instancetype)openPanelWithFilterOptions:(NSDictionary *)options.`
     
 In explanations of method shows the method requirations.
     

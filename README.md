@@ -1,5 +1,7 @@
 # LOpenPanelAccessoryView
 
+ [![star this repo](http://githubbadges.com/star.svg?user=Kito0615&repo=LOpenPanelAccessoryView&style=default&color=fff&background=3466ae)](https://github.com/Kito0615/LOpenPanelAccessoryView)  [![fork this repo](http://githubbadges.com/fork.svg?user=Kito0615&repo=LOpenPanelAccessoryView&style=default&color=fff&background=3466ae)](https://github.com/Kito0615/LOpenPanelAccessoryView/fork)
+
  ***This open panel with filter. You can use this Panel set filter easily, when your app support too many types of files.***
 
 **You can use this open panel, initialize panel with options as required, set up filter quickly.**
